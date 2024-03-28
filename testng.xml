@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sai Jyothi/IdeaProjects/SeleniumPOC">
+        <classes><class name="HeroHookTests.HeroHook">
+            <methods><include name="openabApplication"/>
+                <include name="openremoveElements"/>
+                <include name="openChallengingDOM"/>
+                <include name="opendropdowns"/>
+                <include name="openBaseAuth"/>
+                <include name="openShadowDOM"/>
+                <include name="openEntryAD"/>
+                <include name="openHorizontalSlider"/>
+                <include name="openFileUpload"/>
+                <include name="openFileDownload"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
